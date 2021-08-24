@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+const name = "Keith";
+let year = new Date().getFullYear();
+
+
 ReactDOM.render(
   <div>
-    <h1>Favorite Foods</h1>
-    <ul>
-      <li>Curry</li>
-      <li>Hotdog</li>
-      <li>Sushi</li>
-    </ul>
-  </div>,
-  document.getElementById('root'));
+    <p>Created by Keith J. Francis</p>
+    <p>&copy; {year}</p>
+  </div>
+  ,document.getElementById('root'));
