@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const name = "Keith";
+const name = "Keith J. Francis";
 let year = new Date().getFullYear();
 
 
 ReactDOM.render(
   <div>
-    <p>Created by Keith J. Francis</p>
+    <p>Created by {name}</p>
     <p>&copy; {year}</p>
   </div>
   ,document.getElementById('root'));
